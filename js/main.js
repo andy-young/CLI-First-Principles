@@ -115,7 +115,7 @@ function countdown() {
 // Check game status
 function checkStatus() {
   if (!isPlaying && time === 0) {
-    message.innerHTML = "Game Over";
+    message.innerHTML = "👾 Game Over 👾 (" + dictionary[currentWord.innerHTML] + ")";
     score = -1;
   }
 }
